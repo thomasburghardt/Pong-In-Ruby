@@ -1,3 +1,4 @@
+#tiny code ruby
 Shoes.app do
   @userScore, @compScore, @dx, INITIAL_SPEED, COMP_LEVEL, SPEED_BONUS1, SPEED_BONUS2 = 0, 0, 0, 8, 20, 10, 20
   @the=title("Score: SuckIt #{@userScore}  TheBadGuys #{@compScore}",size:   20, top:    height/2-40, align:  "center",font:   "Trebuchet MS", stroke: red)
